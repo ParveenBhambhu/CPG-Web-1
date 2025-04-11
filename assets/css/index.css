@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("/assets/css/root.css");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+.font-tomorrow {
+  font-family: Tomorrow;
+}
+h1,
+p {
+  margin-bottom: 0px;
+}
+
+@font-face {
+  font-family: "Bebas Neue Cyrillic";
+  src: url("/assets/font/bebasneuecyrillic.ttf");
+}
+@font-face {
+  font-family: "Segoe UI";
+  src: url("/assets/font/segoeui.ttf");
+}
+
+.container-fluid {
+  max-width: 1114px;
+  width: 100%;
+  margin: 0 auto;
+  padding-inline: 16px;
+}
+
+.font-bebas-neue {
+  font-family: "Bebas Neue Cyrillic";
+}
+.font-segoe {
+  font-family: "Segoe UI";
+}
+
+.container {
+  max-width: 1115px;
+  width: 100%;
+  margin: 0 auto;
+  padding-inline: 16px;
+}
+
+.hero-section-bg {
+  background-image: url("/assets/images/png/herosection-bg.png");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav-link {
+  width: 97px;
+}
+
+.nav-link:hover {
+  font-weight: 700;
+  transition-duration: 2s;
+  color: var(--color-primary);
+}
+.launch-btn {
+  border: 1px solid var(--color-primary);
+  border-radius: 45px;
+  width: 160px;
+  height: 40px;
+}
+
+.launch-btn:hover {
+  color: var(--color-5xl);
+  background-color: var(--color-primary);
+  transition-duration: 1s;
+}
+
+.social-media-nav-links {
+  gap: 15px;
+  padding-left: 46px;
+}
+
+.social-media-link:hover {
+  transition-duration: 1s;
+  scale: 0.9;
+}
+.hero-setion-text {
+  gap: 27px;
+}
+.hero-setion-main {
+  gap: 52px;
+  padding-top: 140px;
+  padding-bottom: 125px;
+}
+.view-docs-btn {
+  width: 186px;
+  height: 46px;
+  background-color: var(--color-secondary);
+  border-radius: 45px;
+}
+.view-docs-btn:hover {
+  background-color: var(--color-primary);
+  transition-duration: 1s;
+  color: var(--color-5xl);
+}
+.navbar {
+  padding-top: 38px;
+}
+
+.most-popular-section-bg {
+  background-image: url("/assets/images/png/most-popular-section-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-block: 55px 67px;
+}
+.nft-api-card-main {
+  border-radius: 16px;
+  border: 1px solid var(--color-2xl);
+  background-color: var(--color-xl);
+  max-width: 348px;
+  width: 100%;
+  padding: 26px 46px 23px 11px;
+}
+.nft-api-card-logo {
+  width: 32px;
+  height: 32px;
+}
+.nft-api-text {
+  line-height: 120%;
+  max-width: 173px;
+  width: 100%;
+  padding-left: 16px;
+}
+
+.nft-api-card-content {
+  line-height: 142.857%;
+  letter-spacing: 0.14px;
+  padding-top: 22px;
+}
+.nft-api-card-main-alchemy {
+  border-radius: 16px;
+  border: 1px solid var(--color-2xl);
+  background-color: var(--color-xl);
+  max-width: 348px;
+  width: 100%;
+  padding: 26px 11px 31px 11px;
+}
+.nft-api-card-main-what-are {
+  border-radius: 16px;
+  border: 1px solid var(--color-2xl);
+  background-color: var(--color-xl);
+  max-width: 348px;
+  width: 100%;
+  padding: 26px 46px 31px 11px;
+}
+.nft-api-text-what-are {
+  line-height: 120%;
+  max-width: 240px;
+  width: 100%;
+  padding-left: 16px;
+}
+
+.most-section-all-card-main {
+  grid-template-columns: auto auto auto;
+  column-gap: 35px;
+  row-gap: 24px;
+  padding-top: 50px;
+}
+
+.learn-section-bg {
+  background-image: url("/assets/images/png/learn-how-to-build-section-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-block: 32px 49px;
+}
+.university-card-main {
+  max-width: 348px;
+  width: 100%;
+  background-color: var(--color-5xl);
+  border: 1px solid var(--color-3xl);
+  border-radius: 16px;
+  padding: 27px 25px 22px 11px;
+}
+.alchemy-university {
+  line-height: 120%;
+  max-width: 195px;
+  width: 100%;
+  padding-left: 14px;
+}
+.university-card-content {
+  line-height: 133.333%;
+  padding-top: 26px;
+  letter-spacing: 0.16px;
+}
+.learn-section-card-main {
+  grid-template-columns: auto auto auto;
+  gap: 35px;
+  width: 100%;
+  padding-top: 43px;
+}
+.api-section-content {
+  gap: 24px;
+}
+.ethereum-logo-circle {
+  width: 65px;
+  height: 65px;
+  background-color: var(--color-primary);
+  border-radius: 60px;
+  border: 2px solid var(--color-7xl);
+}
+.ethereum-logo {
+  width: 48px;
+  height: 48px;
+}
+.ethereum-text {
+  line-height: 114.286%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-top: 17px;
+}
+.api-logo-main-1 {
+  grid-template-columns: auto auto auto auto auto;
+  gap: 68px;
+}
+.api-logo-main-2 {
+  grid-template-columns: auto auto auto auto;
+  gap: 89px;
+}
+.api-all-logo-main {
+  gap: 44px;
+  padding-top: 52px;
+}
+
+.use-case-api-setion-bg {
+  background-image: url("/assets/images/png/learn-how-to-build-section-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 49px 44px 65px 41px;
+}
+.api-buit-text {
+  line-height: 175%;
+  padding-top: 14px;
+}
+.university-card-content-send-transaction {
+  line-height: 133.333%;
+  padding-top: 26px;
+  letter-spacing: 0.16px;
+  max-width: 320px;
+  width: 100%;
+}
+
+.use-case-api-ard-main {
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  column-gap: 33px;
+  row-gap: 28px;
+  padding-top: 46px;
+}
+
+@media screen and (max-width: 992px) {
+  .most-section-all-card-main {
+    grid-template-columns: auto auto;
+  }
+
+  .nft-api-card-main,
+  .nft-api-card-main-alchemy,
+  .nft-api-card-main-what-are {
+    max-width: 100%;
+    width: 100%;
+  }
+  .learn-section-card-main {
+    grid-template-columns: auto auto;
+    width: 100%;
+    gap: 25px;
+  }
+  .use-case-api-ard-main {
+    grid-template-columns: auto auto;
+  }
+  .use-case-api-setion-bg{
+    padding: 40px 38px 58px 35px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-setion-main {
+    gap: 45px;
+    padding-top: 130px;
+    padding-bottom: 115px;
+  }
+  .view-docs-btn {
+    width: 180px;
+    height: 40px;
+  }
+  .navbar {
+    padding-top: 25px;
+  }
+  .nft-api-card-main,
+  .nft-api-card-main-what-are {
+    padding: 18px 20px 12px 6px;
+  }
+
+  .university-card-main {
+    max-width: 100%;
+    width: 100%;
+  }
+  .api-logo-main-1 {
+    grid-template-columns: auto auto auto auto;
+    gap: 58px;
+  }
+  .api-logo-main-2 {
+    grid-template-columns: auto auto auto auto;
+    gap: 70px;
+  }
+  .ethereum-logo {
+    width: 30px;
+    height: 30px;
+  }
+  .ethereum-logo-circle {
+    width: 50px;
+    height: 50px;
+  }
+  .use-case-api-ard-main {
+    grid-template-columns: auto;
+  }
+    .use-case-api-setion-bg{
+    padding: 35px 32px 45px 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .hero-setion-main {
+    gap: 30px;
+    padding-top: 110px;
+    padding-bottom: 100px;
+  }
+  .hero-setion-text {
+    gap: 18px;
+  }
+  .view-docs-btn {
+    width: 160px;
+    height: 30px;
+  }
+  .navbar {
+    padding-top: 5px;
+  }
+  .logo {
+    width: 95px;
+    height: 30px;
+  }
+  .most-section-all-card-main {
+    grid-template-columns: auto;
+    padding-top: 25px;
+  }
+  .learn-section-card-main {
+    grid-template-columns: auto;
+    width: 100%;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+  }
+  .university-card-main {
+    padding: 18px 16px 14px 6px;
+  }
+  .api-logo-main-1 {
+    grid-template-columns: auto auto;
+    gap: 40px;
+  }
+  .api-logo-main-2 {
+    grid-template-columns: auto auto;
+    gap: 50px;
+  }
+  .ethereum-logo {
+    width: 25px;
+    height: 25px;
+  }
+  .ethereum-logo-circle {
+    width: 40px;
+    height: 40px;
+  }
+  .api-section-content {
+    gap: 12px;
+  }
+    .use-case-api-setion-bg{
+    padding: 10px;
+  }
+}

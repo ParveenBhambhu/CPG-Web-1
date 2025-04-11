@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CGP-Web</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/css/index.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/png/favicon.png"
+    />
+  </head>
+  <body>
+    <header class="hero-section-bg">
+      <!---------------- navbar start --------------->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="./assets/images/svg/logo.svg"
+              alt="logo-img"
+              class="w-27 h-10 logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span
+              ><img
+                src="./assets/images/png/sidebar-logo.png"
+                alt="sidebar-logo"
+                width="33px"
+                height="22px"
+            /></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav mx-auto mb-2 mb-lg-0 d-flex justify-content-center"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link color-primary font-tomorrow font-base"
+                  aria-current="page"
+                  href="#"
+                  >RPC API</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link color-primary font-tomorrow font-base"
+                  href="#"
+                  >Pricing</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link color-primary font-tomorrow font-base"
+                  aria-current="page"
+                  href="#"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link color-primary font-tomorrow font-base"
+                  href="#"
+                  >Docs</a
+                >
+              </li>
+            </ul>
+            <button
+              type="button"
+              class="btn launch-btn color-primary text-center weight-base"
+            >
+              Launch APP
+            </button>
+
+            <div
+              class="d-flex align-items-center justify-content-center social-media-nav-links"
+            >
+              <a
+                href="https://telegram.com"
+                target="_blank"
+                class="social-media-link"
+                ><img
+                  src="/assets/images/png/telegram.png"
+                  alt="telegram-img"
+                  width="25px"
+                  height="25px"
+              /></a>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                class="social-media-link"
+                ><img
+                  src="/assets/images/png/twitter.png"
+                  alt="twitter-img"
+                  width="25px"
+                  height="25px"
+              /></a>
+              <a
+                href="https://discord.com"
+                target="_blank"
+                class="social-media-link"
+                ><img
+                  src="/assets/images/png/discord.png"
+                  alt="discord-img"
+                  width="25px"
+                  height="25px"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!---------------- navbar end --------------->
+
+      <!---------------- Hero section start ------------>
+      <section class="container-fluid">
+        <div
+          class="d-flex justify-content-center align-items-center flex-column hero-setion-main"
+        >
+          <div
+            class="d-flex justify-content-center align-items-center flex-column hero-setion-text"
+          >
+            <h1 class="color-primary font-bebas-neue font-3xl text-center">
+              The <span class="color-secondary">web3</span> developer hub
+            </h1>
+            <p class="color-primary text-center font-tomorrow font-lg">
+              View API References, guides, and tutorials for Ethereum, Polygon,
+              Optimism, Arbitrum, Solana and Astar.
+            </p>
+          </div>
+          <button
+            type="button"
+            class="btn btn-primary color-5xl text-center font-md font-tomorrow weight-md view-docs-btn"
+          >
+            View docs
+          </button>
+        </div>
+      </section>
+      <!---------------- Hero section end ------------>
+    </header>
+
+    <main>
+      <!--------- Most popular section start ------------- -->
+      <section class="most-popular-section-bg">
+        <div class="container-fluid">
+          <p
+            class="color-primary text-center font-bebas-neue font-xxl font-normal"
+          >
+            Most popular
+          </p>
+
+          <div
+            class="most-section-all-card-main d-grid justify-content-between"
+          >
+            <!-- card 1 start -->
+            <div class="nft-api-card-main">
+              <div class="d-flex align-items-center">
+                <img
+                  src="./assets/images/png/nft-api-img.png"
+                  alt="nft-api-logo"
+                  class="nft-api-card-logo"
+                />
+                <p
+                  class="color-primary font-tomorrow font-xl weight-base nft-api-text"
+                >
+                  NFT API Quickstart
+                </p>
+              </div>
+              <p
+                class="color-primary font-tomorrow font-md nft-api-card-content"
+              >
+                Easiest way to get NFT data from ownership to sales to metadata
+                and more.
+              </p>
+            </div>
+            <!-- card 1 end -->
+
+            <!-------- card 2 start ---------->
+            <div class="nft-api-card-main">
+              <div class="d-flex align-items-center">
+                <img
+                  src="./assets/images/png/ethereum-api-img.png"
+                  alt="nft-api-logo"
+                  class="nft-api-card-logo"
+                />
+                <p
+                  class="color-primary font-tomorrow font-xl weight-base nft-api-text"
+                >
+                  Ethereum API Quickstart
+                </p>
+              </div>
+              <p
+                class="color-primary font-tomorrow font-md nft-api-card-content"
+              >
+                How to get started building on Ethereum and using the JSON-RPC
+                API.
+              </p>
+            </div>
+            <!-------- card 2 end ---------->
+
+            <!-------- card 3 start ---------->
+            <div class="nft-api-card-main">
+              <div class="d-flex align-items-center">
+                <img
+                  src="./assets/images/png/sdk-card-img.png"
+                  alt="nft-api-logo"
+                  class="nft-api-card-logo"
+                />
+                <p
+                  class="color-primary font-tomorrow font-xl weight-base nft-api-text"
+                >
+                  SDK Quickstart
+                </p>
+              </div>
+              <p
+                class="color-primary font-tomorrow font-md nft-api-card-content"
+              >
+                The easiest way to connect your dApp to the blockchain using
+                JavaScript.
+              </p>
+            </div>
+            <!-------- card 3 end ---------->
+
+            <!-------- card 4 start ---------->
+            <div class="nft-api-card-main-alchemy">
+              <div class="d-flex align-items-center">
+                <img
+                  src="./assets/images/png/alchemy-card-img.png"
+                  alt="nft-api-logo"
+                  class="nft-api-card-logo"
+                />
+                <p
+                  class="color-primary font-tomorrow font-xl weight-base nft-api-text"
+                >
+                  alchemy_pending Transactions
+                </p>
+              </div>
+              <p
+                class="color-primary font-tomorrow font-md nft-api-card-content"
+              >
+                Subscribe to full transaction objects or hashes that are pending
+                based on provided filters.
+              </p>
+            </div>
+            <!-------- card 4 end ---------->
+
+            <!-------- card 5 start ---------->
+            <div class="nft-api-card-main-what-are">
+              <div class="d-flex align-items-center">
+                <img
+                  src="./assets/images/png/what-are-payable-card-img.png"
+                  alt="nft-api-logo"
+                  class="nft-api-card-logo"
+                />
+                <p
+                  class="color-primary font-tomorrow font-xl weight-base nft-api-text-what-are"
+                >
+                  What are payable functions in Solidity?
+                </p>
+              </div>
+              <p
+                class="color-primary font-tomorrow font-md nft-api-card-content"
+              >
+                Learn how payable functions work in Solidity.
+              </p>
+            </div>
+            <!-------- card 5 end ---------->
+
+            <!-------- card 6 start ---------->
+            <div class="nft-api-card-main-what-are">
+              <div class="d-flex align-items-center">
+                <img
+                  src="./assets/images/png/how-to-get-card-img.png"
+                  alt="nft-api-logo"
+                  class="nft-api-card-logo"
+                />
+                <p
+                  class="color-primary font-tomorrow font-xl weight-base nft-api-text-what-are"
+                >
+                  How to get all NFTs owned by an address
+                </p>
+              </div>
+              <p
+                class="color-primary font-tomorrow font-md nft-api-card-content"
+              >
+                Query all NFTs owned by a provided address in one line of code.
+              </p>
+            </div>
+            <!-------- card 6 end ---------->
+          </div>
+        </div>
+      </section>
+      <!--------- Most popular section end ------------- -->
+
+      <!---------- Learn how to build section start ----------->
+      <section class="learn-section-bg">
+        <div class="container-fluid">
+          <p class="color-primary text-center font-bebas-neue font-xxl">
+            Learn how to <span class="color-secondary">build in web3</span>
+          </p>
+
+          <div class="learn-section-card-main justify-content-between d-grid">
+            <!-- card 1 start -->
+            <div class="university-card-main">
+              <div class="d-flex align-items-center">
+                <img
+                  src="./assets/images/png/alchemy-university-img.png"
+                  alt="alchemy-university-img"
+                  width="32px"
+                  height="32px"
+                />
+                <p
+                  class="color-primary font-tomorrow font-xl weight-base alchemy-university"
+                >
+                  Alchemy University
+                </p>
+              </div>
+              <p
+                class="color-4xl font-tomorrow font-sm university-card-content"
+              >
+                Ethereum Developer Bootcamp and JavaScript Fundamentals Courses,
+                for free.
+              </p>
+            </div>
+            <!-- card 1 end -->
+            <!------- card 2 start ----------->
+            <div class="university-card-main">
+              <div class="d-flex align-items-center">
+                <img
+                  src="./assets/images/png/create-web-img.png"
+                  alt="alchemy-university-img"
+                  width="32px"
+                  height="32px"
+                />
+                <p
+                  class="color-primary font-tomorrow font-xl weight-base alchemy-university"
+                >
+                  Create Web3 Dapp
+                </p>
+              </div>
+              <p
+                class="color-4xl font-tomorrow font-sm university-card-content"
+              >
+                Create a full-stack dApp in ~4 mins, right from the
+                command-line.
+              </p>
+            </div>
+            <!------- card 2 end ----------->
+            <!------- card 3 start ----------->
+            <div class="university-card-main">
+              <div class="d-flex align-items-center">
+                <img
+                  src="./assets/images/png/view-all-card-img.png"
+                  alt="alchemy-university-img"
+                  width="32px"
+                  height="32px"
+                />
+                <p
+                  class="color-primary font-tomorrow font-xl weight-base alchemy-university"
+                >
+                  View all tutorials
+                </p>
+              </div>
+              <p
+                class="color-4xl font-tomorrow font-sm university-card-content"
+              >
+                Web3 tutorials for all topics: NFTs, Solidity, DeFI,
+                transactions, and more!
+              </p>
+            </div>
+            <!------- card 3 end ----------->
+          </div>
+        </div>
+      </section>
+      <!---------- Learn how to build section end ----------->
+
+      <!---------- Api refernces section start  ----------->
+      <section class="most-popular-section-bg">
+        <div class="container-fluid">
+          <div class="d-flex flex-column api-section-content">
+            <p class="color-primary text-center font-bebas-neue font-xxl">
+              <span class="color-secondary">API</span> references for all chains
+            </p>
+            <p class="color-primary text-center font-tomorrow font-lg">
+              Including free Archive data on all chains and testnets.
+            </p>
+          </div>
+
+          <div
+            class="api-all-logo-main d-flex justify-content-center align-items-center flex-column"
+          >
+            <div
+              class="d-grid justify-content-between align-items-center api-logo-main-1"
+            >
+              <!-- 1 -->
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <div
+                  class="ethereum-logo-circle d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./assets/images/png/ethereum-logo.png"
+                    alt="ethereum-logo"
+                    class="ethereum-logo"
+                  />
+                </div>
+                <p
+                  class="color-primary text-center font-segoe font-md ethereum-text"
+                >
+                  Ethereum
+                </p>
+              </div>
+
+              <!-- 2 -->
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <div
+                  class="ethereum-logo-circle d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./assets/images/png/polygon-pos.png"
+                    alt="ethereum-logo"
+                    class="ethereum-logo"
+                  />
+                </div>
+                <p
+                  class="color-primary text-center font-segoe font-md ethereum-text"
+                >
+                  Polygon PoS
+                </p>
+              </div>
+
+              <!-- 3 -->
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <div
+                  class="ethereum-logo-circle d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./assets/images/png/arbitrum-logo.png"
+                    alt="ethereum-logo"
+                    class="ethereum-logo"
+                  />
+                </div>
+                <p
+                  class="color-primary text-center font-segoe font-md ethereum-text"
+                >
+                  Arbitrum
+                </p>
+              </div>
+
+              <!-- 4 -->
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <div
+                  class="ethereum-logo-circle d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./assets/images/png/polygon-zy.png"
+                    alt="ethereum-logo"
+                    class="ethereum-logo"
+                  />
+                </div>
+                <p
+                  class="color-primary text-center font-segoe font-md ethereum-text"
+                >
+                  Polygon ZKEVM
+                </p>
+              </div>
+
+              <!-- 5 -->
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <div
+                  class="ethereum-logo-circle d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./assets/images/png/base.png"
+                    alt="ethereum-logo"
+                    class="ethereum-logo"
+                  />
+                </div>
+                <p
+                  class="color-primary text-center font-segoe font-md ethereum-text"
+                >
+                  Base
+                </p>
+              </div>
+            </div>
+            <div
+              class="d-grid justify-content-between align-items-center api-logo-main-2"
+            >
+              <!-- 6 -->
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <div
+                  class="ethereum-logo-circle d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./assets/images/png/optimism.png"
+                    alt="ethereum-logo"
+                    class="ethereum-logo"
+                  />
+                </div>
+                <p
+                  class="color-primary text-center font-segoe font-md ethereum-text"
+                >
+                  Optimism
+                </p>
+              </div>
+
+              <!-- 7 -->
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <div
+                  class="ethereum-logo-circle d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./assets/images/png/solana.png"
+                    alt="ethereum-logo"
+                    class="ethereum-logo"
+                  />
+                </div>
+                <p
+                  class="color-primary text-center font-segoe font-md ethereum-text"
+                >
+                  Solana
+                </p>
+              </div>
+
+              <!-- 8 -->
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <div
+                  class="ethereum-logo-circle d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./assets/images/png/astar.png"
+                    alt="ethereum-logo"
+                    class="ethereum-logo"
+                  />
+                </div>
+                <p
+                  class="color-primary text-center font-segoe font-md ethereum-text"
+                >
+                  Astar
+                </p>
+              </div>
+
+              <!-- 9 -->
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <div
+                  class="ethereum-logo-circle d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./assets/images/png/starknet.png"
+                    alt="ethereum-logo"
+                    class="ethereum-logo"
+                  />
+                </div>
+                <p
+                  class="color-primary text-center font-segoe font-md ethereum-text"
+                >
+                  Starknet
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---------- Api refernces section end  ----------->
+
+      <!-------- Use case api start ------------>
+      <section class="use-case-api-setion-bg">
+        <div class="container-fluid">
+          <div>
+            <div
+              class="d-flex justify-content-center align-items-center flex-column"
+            >
+              <p class="font-xxl text-center color-primary font-bebas-neue">
+                Use case <span class="color-secondary">APIs</span>
+              </p>
+              <p
+                class="color-primary text-center font-tomorrow font-xl api-buit-text"
+              >
+                APIs built to optimize your code and make life as a developer
+                way easier.
+              </p>
+            </div>
+
+            <div class="use-case-api-ard-main d-grid">
+              <!-- card 1 start -->
+              <div class="university-card-main">
+                <div class="d-flex align-items-center">
+                  <img
+                    src="./assets/images/png/nft-api-logo.png"
+                    alt="alchemy-university-img"
+                    width="32px"
+                    height="32px"
+                  />
+                  <p
+                    class="color-primary font-tomorrow font-xl weight-base alchemy-university"
+                  >
+                    NFT API
+                  </p>
+                </div>
+                <p
+                  class="color-4xl font-tomorrow font-sm university-card-content"
+                >
+                  Get all the NFT data you need with this suite of endpoints
+                </p>
+              </div>
+              <!-- card 1 end -->
+              <!------- card 2 start ----------->
+              <div class="university-card-main">
+                <div class="d-flex align-items-center">
+                  <img
+                    src="./assets/images/png/transact-logo.png"
+                    alt="alchemy-university-img"
+                    width="32px"
+                    height="32px"
+                  />
+                  <p
+                    class="color-primary font-tomorrow font-xl weight-base alchemy-university"
+                  >
+                    Transact
+                  </p>
+                </div>
+                <p
+                  class="color-4xl font-tomorrow font-sm university-card-content-send-transaction"
+                >
+                  Send transactions 7.9x faster
+                </p>
+              </div>
+              <!------- card 2 end ----------->
+              <!------- card 3 start ----------->
+              <div class="university-card-main">
+                <div class="d-flex align-items-center">
+                  <img
+                    src="./assets/images/png/token-api-logo.png"
+                    alt="alchemy-university-img"
+                    width="32px"
+                    height="32px"
+                  />
+                  <p
+                    class="color-primary font-tomorrow font-xl weight-base alchemy-university"
+                  >
+                    Token API
+                  </p>
+                </div>
+                <p
+                  class="color-4xl font-tomorrow font-sm university-card-content"
+                >
+                  Get token valuable information to display to users
+                </p>
+              </div>
+              <!------- card 3 end ----------->
+              <!------- card 4 start ----------->
+              <div class="university-card-main">
+                <div class="d-flex align-items-center">
+                  <img
+                    src="./assets/images/png/transfer-api-logo.png"
+                    alt="alchemy-university-img"
+                    width="32px"
+                    height="32px"
+                  />
+                  <p
+                    class="color-primary font-tomorrow font-xl weight-base alchemy-university"
+                  >
+                    Transfers API
+                  </p>
+                </div>
+                <p
+                  class="color-4xl font-tomorrow font-sm university-card-content"
+                >
+                  Get historical transactions for any address or contract
+                </p>
+              </div>
+              <!------- card 4 end ----------->
+              <!------- card 5 start ----------->
+              <div class="university-card-main">
+                <div class="d-flex align-items-center">
+                  <img
+                    src="./assets/images/png/token-api-logo.png"
+                    alt="alchemy-university-img"
+                    width="32px"
+                    height="32px"
+                  />
+                  <p
+                    class="color-primary font-tomorrow font-xl weight-base alchemy-university"
+                  >
+                    Notify API
+                  </p>
+                </div>
+                <p
+                  class="color-4xl font-tomorrow font-sm university-card-content-send-transaction"
+                >
+                  Webhooks for transaction activity
+                </p>
+              </div>
+              <!------- card 5 end ----------->
+              <!------- card 6 start ----------->
+              <div class="university-card-main">
+                <div class="d-flex align-items-center">
+                  <img
+                    src="./assets/images/png/trace-api-logo.png"
+                    alt="alchemy-university-img"
+                    width="32px"
+                    height="32px"
+                  />
+                  <p
+                    class="color-primary font-tomorrow font-xl weight-base alchemy-university"
+                  >
+                    Trace API
+                  </p>
+                </div>
+                <p
+                  class="color-4xl font-tomorrow font-sm university-card-content"
+                >
+                  Deep insights for transaction processing
+                </p>
+              </div>
+              <!------- card 6 end ----------->
+            </div>
+            <div class="d-flex justify-content-center pt-4">
+              <button
+                type="button"
+                class="btn btn-primary color-5xl text-center font-md font-tomorrow weight-md view-docs-btn"
+              >
+                View docs
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-------- Use case api end ------------>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
