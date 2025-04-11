@@ -19,19 +19,19 @@
   --color-6xl: #939393;
   --color-7xl: #f3f3f3;
 
-  --weight-sm: 300;
-  --weight-md: 600;
-  --weight-base: 700;
+  --font-light: 300;
+  --font-semibold: 600;
+  --font-bold: 700;
 }
 
-.weight-sm {
-  font-weight: var(--weight-sm);
+.font-light {
+  font-weight: var(--font-light);
 }
-.weight-md {
-  font-weight: var(--weight-md);
+.font-semibold {
+  font-weight: var(--font-semibold);
 }
-.weight-base {
-  font-weight: var(--weight-base);
+.font-bold {
+  font-weight: var(--font-bold);
 }
 
 .color-7xl {
